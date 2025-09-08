@@ -36,7 +36,7 @@ const cardsData = [
 ]
 const Cards = () => {
 
-  let containerRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
     const progressLine = containerRef.current?.querySelector('.progress-line');
@@ -84,7 +84,7 @@ const Card = ({ title, description, image, number }:
   typeof cardsData[number]
 ) => {
 
-  let containerRef = useRef<HTMLDivElement>(null)
+  const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
 
