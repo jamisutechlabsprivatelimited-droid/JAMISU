@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-primary: var(--font-primary);
+  --font-secondary: var(--font-secondary);
+  --color-white: #f9fbfc;
+  --color-white-secondary: #d6d6d6;
+  --color-blue: rgb(0, 112, 150);
+  --color-orange: oklch(70.5% .213 47.604);
+  --color-green: #09272c;
+  --color-green-secondary: #0d373f;
+  --color-gray: #5D5D5D;
+  --color-background-gray: #F5F5F5;
+  --color-orange-tag: rgba(255, 105, 0, 0.16);
+  --color-border-light: rgba(9, 39, 44, 0.15);
+  --text-15: 15px;
+  --text-15-line-height: 110%;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+@utility container {
+  padding-inline: 1rem;
+  margin-inline: auto;
+  width: 95%;
+  max-width: 1420px;
+}
+
+@media (max-width : 768px) {
+  .container {
+
+    width: 100%;
+  }
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+p {
+  line-height: 130%;
+}
+
+/* 
+p {
+  color: #0d373f;
+} */
