@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
 
           <p className="mt-8 lg:text-lg max-w-lg text-[#EFEFEF]">
-            Helping business owners & leaders follow a proven process to build a more valuable business - so you can live the life you've always dreamed of.
+            Helping business owners & leaders follow a proven process to build a more valuable business - so you can live the life you&apos;ve always dreamed of.
           </p>
 
           <div className="mt-5">
