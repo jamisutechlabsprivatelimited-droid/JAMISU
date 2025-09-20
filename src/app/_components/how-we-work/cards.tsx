@@ -101,15 +101,19 @@ const Card = ({ title, description, image, number }:
     })
 
   }, { scope: containerRef })
-  return <div ref={containerRef} className="max-lg:w-11/12 max-lg:mr-auto grid lg:grid-cols-2 gap-10">
+  return <div ref={containerRef} 
+    className={"max-lg:w-11/12 max-lg:mr-auto grid lg:grid-cols-2 gap-10"}
+  >
 
-    <div className="flex lg:justify-end">
+    <div className={`flex lg:justify-end ${Number(number) % 2 === 0 && "lg:order-last lg:mr-auto lg:pl-20"}`}>
       <figure className="w-20 lg:w-[155px] h-20 lg:h-[155px] relative lg:mr-20">
         <Image src={image} layout="fill" alt={title} className="" />
       </figure>
     </div>
 
-    <div className="grid lg:grid-cols-[auto_1fr] gap-4 items-start max-w-lg lg:mr-auto max-lg:ml-auto ml-20">
+    <div className={`grid lg:grid-cols-[auto_1fr] gap-4 items-start max-w-lg lg:mr-auto max-lg:ml-0 ml-20 
+      ${Number(number) % 2 === 0 && "lg:!mr-0 lg:ml-auto"}`}
+      >
       <span className="blocktext-xl font-semibold h-10 w-10 flex justify-center items-center bg-green text-white rounded-full">{number}</span>
       <div className="space-y-4">
         <h3 className="text-2xl font-medium">{title}</h3>

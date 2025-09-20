@@ -37,8 +37,12 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center gap-10 uppercase">
           <NavItem label="Services" href="#services" />
           <NavItem label="Solutions" href="#solutions" />
-          <NavItem label="About Flemingo" href="#About Flemingo " />
           <NavItem label="Say Hey" href="mailto:sales@flemingoservices.com" />
+          <div>
+            <Link href={"/contact-us"} className="text-white text-sm font-semibold px-4 py-2 border-b border-transparent hover:border-orange">
+              Book a call
+            </Link>
+          </div>
           <DownloadBrochureBtn />
         </nav>
 
@@ -48,8 +52,12 @@ const Navbar = () => {
             <nav className="flex flex-col gap-1 pt-2">
               <MobileNavItem label="Services" href="#services" />
               <MobileNavItem label="Solutions" href="#solutions" />
-              <MobileNavItem label="About Flemingo Services" href="#About Flemingo Services" />
               <MobileNavItem label="Say Hey" href="mailto:sales@flemingoservices.com" />
+              <div>
+                <Link href={"/contact-us"} className="text-white bg-orange px-4 py-2 rounded-md">
+                  Book a call
+                </Link>
+              </div>
             </nav>
           </div>
         </MobileNavbar>

@@ -5,12 +5,13 @@ import ERPImplementationImage from "@/assets/services/erp-implementation.jpg"
 import ERPIntegrationImage from "@/assets/services/erp-integration.jpg"
 import ManagedServicesImage from "@/assets/services/managed-servicecs.jpg"
 import styles from "./styles.module.css"
+import Link from "next/link";
 
 
 const OurServices = () => {
   const cardClass = `relative min-h-72 md:min-h-[500px] rounded-sm overflow-hidden p-4 flex flex-col h-full justify-between ${styles.serviceCard}`
   return (
-    <section className="py-20">
+    <section id="services" className="py-20">
       <div className="container">
         <div className="space-y-5 w-full max-w-xl">
           <h3 className="text-7xl font-medium tracking-tight font-primary">Our services</h3>
@@ -57,6 +58,11 @@ const OurServices = () => {
             <PlusIcon />
           </article>
         </div>
+      <div className="mt-5 flex justify-center">
+        <Link href={"/contact-us"} className="text-white bg-orange px-4 py-2 rounded-md">
+          Book a call
+        </Link>
+      </div>
       </div>
     </section>
   )

@@ -1,6 +1,7 @@
 import HeroImage from "@/assets/hero-image.webp";
 import Image from "next/image";
 import WordAnimation from "./word-animation";
+import Link from "next/link";
 
 const Hero = () => {
 
@@ -21,9 +22,9 @@ const Hero = () => {
           </p>
 
           <div className="mt-5">
-            <button className="text-white bg-orange px-4 py-2 rounded-md">
+            <Link href={"/contact-us"} className="text-white bg-orange px-4 py-2 rounded-md">
               Book a call
-            </button>
+            </Link>
           </div>
         </div>
       </div>

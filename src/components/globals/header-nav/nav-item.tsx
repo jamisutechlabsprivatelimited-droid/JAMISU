@@ -11,7 +11,7 @@ export function NavItem({ label, href, className }: NavItemProps) {
     <Link
       href={href}
       className={
-        `${style.navitem} ${className} text-white`
+        `${style.navitem} ${className} text-white border-b border-transparent hover:border-orange`
       }
     >
       {label}
