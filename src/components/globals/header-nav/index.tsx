@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className="relative w-full h-12">
               <Image
                 src={NavLogo}
-                alt="Cloudsuite Flemingo Services logo"
+                alt="Jamisu Tech logo"
                 fill
                 className="object-contain"
               />

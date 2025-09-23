@@ -79,15 +79,15 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="flex gap-4">
-          <Link href="https://www.instagram.com/flemingoservices/?hl=en">
+          <Link href="https://www.instagram.com/jamisutech/?hl=en">
             <Image src="/Instgram.jpg" alt="Instagram" width={40} height={40} className="rounded-full hover:opacity-80" />
           </Link>
           <Link href="mailto:sales@flemingoservices.com">
             <Image src="/Gmail.png" alt="Email" width={40} height={40} className="rounded-full hover:opacity-80" />
           </Link>
-          <Link href="https://www.linkedin.com/in/cloudsuite-flemingo-services-a375aa361/">
+          {/* <Link href="https://www.linkedin.com/in/cloudsuite-flemingo-services-a375aa361/">
             <Image src="/Linkedln.png" alt="LinkedIn" width={40} height={40} className="rounded-full hover:opacity-80" />
-          </Link>
+          </Link> */}
           <Link href="https://wa.me/919021023513">
             <Image src="/Watsapp (1).png" alt="WhatsApp" width={40} height={40} className="rounded-full hover:opacity-80" />
           </Link>
@@ -96,7 +96,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <p className="text-center text-sm text-white mt-10 container">
-        &copy; 2025 All rights reserved. Cloudsuite Flemingo Services Pvt. Ltd.
+        &copy; 2025 All rights reserved. Jamisu Tech Pvt. Ltd.
       </p>
     </footer>
   );

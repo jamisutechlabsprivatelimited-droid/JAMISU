@@ -8,7 +8,7 @@ const About = () => {
       <div className="text-center">
         <h2 className="text-5xl font-primary">
           About
-          <span className="text-orange">Cloudsuite Flemingo Services </span>
+          <span className="text-orange">Jamisu Tech </span>
         </h2>
       </div>
 
@@ -26,7 +26,7 @@ const About = () => {
         <div>
           <div className="space-y-6 text-sm text-gray-600">
             <p className="font-bold">
-              Cloudsuite Flemingo Services, a proud member of the LanceSoft Inc family, excels in  empowering  businesses
+              Jamisu Tech, a proud member of the LanceSoft Inc family, excels in  empowering  businesses
               with cutting-edge solutions. Our expertise lies in ERP implementation and consulting, enabling organizations
               to streamline operations through intelligent automation and bespoke ERP strategies.  Beyond ERP, we offer a
               comprehensive suite of IT services, including software development, cloud solutions, cybersecurity, IT
@@ -34,7 +34,7 @@ const About = () => {
             </p>
 
             <p className="font-bold">
-              At Cloudsuite Flemingo Services, we specialize in delivering tailored NetSuite ERP solutions to streamline
+              At Jamisu Tech, we specialize in delivering tailored NetSuite ERP solutions to streamline
               your business processes and boost your productivity. With years of expertise, our certified professionals
               provide end-to-end NetSuite services that drive growth and innovation.
             </p>
