@@ -88,7 +88,7 @@ const Footer = () => {
           {/* <Link href="https://www.linkedin.com/in/cloudsuite-flemingo-services-a375aa361/">
             <Image src="/Linkedln.png" alt="LinkedIn" width={40} height={40} className="rounded-full hover:opacity-80" />
           </Link> */}
-          <Link href="https://wa.me/919021023513">
+          <Link href="https://wa.me/+919975549318">
             <Image src="/Watsapp (1).png" alt="WhatsApp" width={40} height={40} className="rounded-full hover:opacity-80" />
           </Link>
         </div>
