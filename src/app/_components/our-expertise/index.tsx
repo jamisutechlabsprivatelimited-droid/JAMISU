@@ -116,7 +116,7 @@ const ConsultingCards = () => {
             {
               cardsData.map((item, index) => (
                 <div key={index} className={`${styles.tabImageContent} ${item.index === currentIndex && styles.active} absolute h-full w-full flex flex-col justify-between top-0 left-0 p-5`}>
-                  <p className="text-white max-w-sm ml-auto text-right tracking-tight text-lg">{item.description}</p>
+                  <p className="text-white max-w-sm ml-auto text-right tracking-tight text-lg invisible">{item.description}</p>
                   <h5 className="text-4xl text-white">{item.title}</h5>
                 </div>
               ))

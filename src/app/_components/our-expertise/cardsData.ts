@@ -12,7 +12,7 @@ const cardsData = [
   {
     index: 0,
     title: "Business Consultation",
-    description: `Helping business owners & leaders follow a proven process to build a more valuable business  - so you can live the life you've always dreamed of.`,
+    description: `Our business consulting services are intended to assist you in overcoming obstacles, taking advantage of opportunities, and attaining quantifiable growth. Working closely with you, we at Cloudsuite Flemingo Services identify your objectives, hone your plans, and put solutions in place that will increase productivity, simplify processes, and set up your company for long-term success.`,
     image: BusinessConsultationImage,
     icon: BusinessConsultationIcon,
     imageDescription: "When it comes to growing a business, most entrepreneurs tend to get stuck at a certain point and become frustrated, as they don't know what to do.",
@@ -20,7 +20,7 @@ const cardsData = [
   {
     index: 1,
     title: "Business Analysis",
-    description: `Helping business owners & leaders follow a proven process to build a more valuable business  - so you can live the life you've always dreamed of`,
+    description: `Our business analysis services go deeply into your operations to find possibilities, find inefficiencies, and offer useful insights. Our mission at Cloudsuite Flemingo Services is to transform data into strategy by assisting you in streamlining operations, cutting expenses, and making wise choices that promote long-term expansion and a competitive edge.`,
     image: BusinessAnalysisImage,
     imageDescription: "When it comes to growing a business, most entrepreneurs tend to get stuck at a certain point and become frustrated, as they don't know what to do.",
     icon: BusinessAnalysisIcon,
@@ -29,7 +29,7 @@ const cardsData = [
   {
     index: 2,
     title: "Business Marketing",
-    description: `Helping business owners & leaders follow a proven process to build a more valuable business  - so you can live the life you've always dreamed of`,
+    description: `The goal of Cloudsuite Flemingo Services' commercial marketing solutions is to improve your brand, connect with the right people, and provide quantifiable outcomes. From strategic planning to implementation, we blend innovation with data-driven insights to increase visibility, produce high-quality leads, and quicken the expansion of your company in a cutthroat industry.`,
     image: BusinessConsultationImage,
     imageDescription: "When it comes to growing a business, most entrepreneurs tend to get stuck at a certain point and become frustrated, as they don't know what to do.",
     icon: MarketingIcon,
@@ -38,7 +38,7 @@ const cardsData = [
   {
     index: 3,
     title: "Business Support",
-    description: `Helping business owners & leaders follow a proven process to build a more valuable business  - so you can live the life you've always dreamed of`,
+    description: `Cloudsuite Flemingo Services offers all-inclusive business assistance to enable you to run efficiently and expand with assurance. We provide the knowledge, tools, and direction you require to preserve effectiveness, increase output, and accomplish long-term success—from simplifying procedures to overcoming obstacles.`,
     image: BusinessAnalysisImage,
     imageDescription: "When it comes to growing a business, most entrepreneurs tend to get stuck at a certain point and become frustrated, as they don't know what to do.",
     icon: SupportIcon,

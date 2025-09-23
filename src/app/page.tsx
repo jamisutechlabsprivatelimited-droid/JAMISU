@@ -6,6 +6,7 @@ import Hero from "./_components/hero";
 import OurServices from "./_components/our-services";
 import TrustUs from "./_components/trust-us";
 import HowWeWork from "./_components/how-we-work";
+import WhatMakesUsDifferent from "./_components/WhatMakesUsDifferent";
 
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export default function Home() {
       <TrustUs />
       <HowWeWork />
       <OurServices />
+      <WhatMakesUsDifferent />
       {/* <AgricultureSuit /> */}
       {/* <About /> */}
     </>

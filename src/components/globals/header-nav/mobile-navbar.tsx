@@ -26,7 +26,7 @@ export function MobileNavbar({ children }: { children: ReactNode }) {
 
   return (
     <>
-      <button className="md:hidden relative h-10 w-10" onClick={() => setIsOpen(!isOpen)}>
+      <button className="md:hidden relative h-10 w-10 invert" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <Image src={CrossIcon} alt="close menu" fill /> : <Image src={MenuIcon} alt="open menu" fill />  }
       </button>
       {isOpen && (

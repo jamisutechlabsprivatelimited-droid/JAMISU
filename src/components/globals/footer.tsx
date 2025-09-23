@@ -27,12 +27,14 @@ const Footer = () => {
             <div className="flex items-start gap-2">
               <span className="text-orange text-lg mt-1"></span>
               <div className="flex flex-col gap-y-3">
-                <a href="tel:+919021023513" className="hover:underline"> 📞 +91 9021023513</a>
-                <a href="tel:+919109301715" className="hover:underline"> 📞 +91 9109301715</a>
-                <a href="tel:+919109301716" className="hover:underline"> 📞 +91 9109301716</a>
-                {/* <Link href="mailto:sales@flemingoservices.com" className="text-sm text-white hover:underline">
-                  📧 sales@flemingoservices.com
-                </Link> */}
+                <a href="tel:+919975549318" className="hover:underline"> 📞 +919975549318 </a>
+
+                <Link href="mailto:sales@jamisu.com" className="text-sm text-white hover:underline">
+                  📧 sales@jamisu.com
+                </Link>
+                <Link href="mailto:sales@jamisu.com" className="text-sm text-white hover:underline">
+                  📧 info@ignitivelabs.in
+                </Link>
               </div>
             </div>
           </div>
@@ -42,13 +44,37 @@ const Footer = () => {
       {/* Bottom section: Address and Social Icons */}
       <div className="container flex flex-col md:flex-row justify-between mt-10 gap-6">
         {/* Address */}
-        <div className="text-sm text-white/90">
-          <h5 className="text-orange text-xl mb-2">📍 INDIA</h5>
-          <p>
-            301 ,Airen Heights Opp<br />
-            Near C-21Mall ,A.B.Road<br />
-            Indore, Madhya Pradesh 452010
-          </p>
+        <div className="grid lg:grid-cols-2 gap-x-6 gap-y-4">
+          <div className="text-sm text-white/90 max-w-xs">
+            <h5 className="text-orange text-xl mb-2">📍 Indore</h5>
+            <p>
+              Ignitive Software
+              Labs, 203, plot No
+              53, 
+              <br />
+              Above Destiny
+              Cafe, Near Medanta
+              Hospital, Vijaynagar,
+              Indore (M.P)
+              <br />
+              INDIA
+            </p>
+            <Link href="https://ignitivelabs.in/" className="block mt-2.5">https://ignitivelabs.in/</Link>
+          </div>
+          <div className="text-sm text-white/90 max-w-xs">
+            <h5 className="text-orange text-xl mb-2">📍 Noida</h5>
+            <p>
+              Tower - D, The
+              Golden Palm
+              Sector - 168,
+              <br />
+              Noida -
+              201304
+              <br />
+              INDIA
+            </p>
+            <Link href="https://ignitivelabs.in/" className="block mt-2.5">https://ignitivelabs.in/</Link>
+          </div>
         </div>
 
         {/* Social Media Icons */}

@@ -12,20 +12,20 @@ const TrustUs = () => {
   const cardsData = [
     {
       id: 1,
-      title: 'CONFIDENCE',
-      description: 'Follow a proven system to grow your company',
+      title: 'Self-assurance',
+      description: 'To grow your business with clarity and control, stick to a tried-and-true method. ',
       icon: ConfidenceIcon
     },
     {
       id: 2,
-      title: 'PEACE OF MIND',
-      description: 'Follow a proven system to grow your company',
+      title: 'Calm',
+      description: 'Operate with the knowledge that your company is robust, flexible, and prepared to prosper in any market environment',
       icon: PeaceIcon
     },
     {
       id: 3,
-      title: 'FINANCIAL FREEDOM',
-      description: 'Follow a proven system to grow your company',
+      title: 'Financial Independence',
+      description: 'Create a prosperous and sustainable future for yourself and your family without being constrained by daily obstacles',
       icon: FreedomIcon
     }
   ]
@@ -44,6 +44,7 @@ const TrustUs = () => {
           </figure>
           <Tag text="Trust Us" variant="orange" />
           <h3 className="text-2xl lg:text-3xl max-w-sm text-center">Get More of What You Want From Your Business</h3>
+          <p className="max-w-xl text-center text-[15px] leading-[120%] text-gray">Increase Your Business&apos;s Capabilities to Deliver on Your Goals solutions—Oracle NetSuite, Microsoft Dynamics 365, Salesforce, and Zoho—that use a results-oriented approach to assist you in achieving more than just operational efficiency. We assist you in gaining independence, stability, and growth. </p>
         </div>
 
         <div className="flex max-lg:flex-col mt-6 lg:mt-10 max-lg:items-center justify-between gap-5">
