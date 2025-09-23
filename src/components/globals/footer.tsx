@@ -32,7 +32,7 @@ const Footer = () => {
                 <Link href="mailto:sales@jamisu.com" className="text-sm text-white hover:underline">
                   📧 sales@jamisu.com
                 </Link>
-                <Link href="mailto:sales@jamisu.com" className="text-sm text-white hover:underline">
+                <Link href="mailto:info@ignitivelabs.in" className="text-sm text-white hover:underline">
                   📧 info@ignitivelabs.in
                 </Link>
               </div>
