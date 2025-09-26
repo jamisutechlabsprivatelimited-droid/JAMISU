@@ -10,8 +10,8 @@ import WhatMakesUsDifferent from "./_components/WhatMakesUsDifferent";
 
 
 export const metadata: Metadata = {
-  title: 'Jamisu',
-  description: 'At Jamisu, we specialize in delivering tailored NetSuite ERP solutions to streamline your business processes and boost your productivity.',
+  title: 'Jamisu Tech',
+  description: 'At Jamisu Tech, we specialize in delivering tailored NetSuite ERP solutions to streamline your business processes and boost your productivity.',
 }
 
 export default function Home() {
