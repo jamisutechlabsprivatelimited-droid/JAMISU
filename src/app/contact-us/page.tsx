@@ -4,6 +4,7 @@ import Image from "next/image";
 import PinIcon from "@/assets/icons/location-pin.svg"
 import Link from "next/link";
 import WhatsappIcon from "@/assets/icons/chat-on-whatsapp.svg"
+import ContactForm from "@/components/globals/contact-form";
 
 export const metadata: Metadata = {
   title: 'Contact Us',
@@ -11,15 +12,14 @@ export const metadata: Metadata = {
 }
 
 
-
-
 const ContactUsPage = () => {
 
 
   return <>
     <section className="container pb-20">
-      <h1 className="text-3xl lg:text-5xl font-semibold mt-10">Get in Touch</h1>
+      <h1 className="text-3xl lg:text-5xl font-semibold mt-10 text-center">Get in Touch</h1>
 
+      <ContactForm />
       <div className="">
         <div className="grid md:grid-cols-2  lg:grid-cols-3 gap-8 mt-10">
           <div className="font-medium text-15 bg-white-secondary/20 p-4 space-y-4">

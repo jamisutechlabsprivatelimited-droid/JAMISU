@@ -38,6 +38,13 @@ h6 {
   max-width: 1420px;
 }
 
+label {
+  @apply block
+}
+input, textarea {
+  @apply border border-gray/30 px-2.5 py-1.5 rounded-sm outline-none block w-full
+}
+
 @media (max-width : 768px) {
   .container {
 
@@ -56,6 +63,11 @@ h6 {
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
+}
+
+.entities .embla__slide {
+
+  flex: 0 0 200px;
 }
 
 p {

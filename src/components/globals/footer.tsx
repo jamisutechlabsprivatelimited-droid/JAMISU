@@ -59,7 +59,6 @@ const Footer = () => {
               <br />
               INDIA
             </p>
-            <Link href="https://ignitivelabs.in/" className="block mt-2.5">https://ignitivelabs.in/</Link>
           </div>
           <div className="text-sm text-white/90 max-w-xs">
             <h5 className="text-orange text-xl mb-2">📍 Noida</h5>
@@ -73,7 +72,6 @@ const Footer = () => {
               <br />
               INDIA
             </p>
-            <Link href="https://ignitivelabs.in/" className="block mt-2.5">https://ignitivelabs.in/</Link>
           </div>
         </div>
 
