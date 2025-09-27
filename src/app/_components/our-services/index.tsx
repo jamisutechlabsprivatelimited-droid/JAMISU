@@ -14,7 +14,7 @@ const OurServices = () => {
     <section id="services" className="py-20">
       <div className="container">
         <div className="space-y-5 w-full max-w-xl">
-          <h3 className="text-7xl font-medium tracking-tight font-primary">Our services</h3>
+          <h3 className="text-7xl font-medium tracking-tight font-primary">Our <span className="text-orange">Services</span></h3>
           <p className="text-gray-600 ml-auto text-lg font-secondary">
             When it comes to growing a business, most entrepreneurs tend to get stuck at a certain point and become frustrated, as they don&apos;t know what to do or how to fix it
           </p>

@@ -3,10 +3,10 @@ const WhatMakesUsDifferent = () => {
     <section className="container pt-10 pb-20">
       <div className="grid lg:grid-cols-2 gap-x-4">
         <div>
-          <h3 className="text-4xl lg:text-5xl font-medium tracking-tight">What Makes us Different</h3>
-          {/* <figure className="relative h-[500px] w-[500px] mt-9">
-            <Image src={SectionImage} alt="" layout="fill" className="object-cover" />
-          </figure> */}
+          <h3 className="text-4xl lg:text-5xl font-medium tracking-tight">What Makes us <span className="text-orange">Different</span></h3>
+          <figure className="relative h-[500px] w-[500px] mt-9">
+            {/* <Image src={SectionImage} alt="" layout="fill" className="object-cover" /> */}
+          </figure>
         </div>
         <div className="max-w-lg space-y-3 max-lg:mt-6 mt-2 text-gray text-sm lg:text-15 lg:ml-auto">
           <p className="">
