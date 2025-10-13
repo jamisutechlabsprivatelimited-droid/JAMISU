@@ -28,11 +28,7 @@ const Carousel = () => {
       <div className="embla relative" ref={emblaRef}>
 
         <div className="embla__container flex items-center gap-x-10 lg:gap-x-20">
-          <div className="embla__slide w-44">
-            <figure>
-              <Image src={AciSunyaLogo} alt="aci sunya" width={170} />
-            </figure>
-          </div>
+
           <div className="embla__slide w-44">
             <figure>
               <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
@@ -43,11 +39,7 @@ const Carousel = () => {
               <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
             </figure>
           </div>
-          <div className="embla__slide w-44">
-            <figure>
-              <Image src={AciSunyaLogo} alt="aci sunya" width={170} />
-            </figure>
-          </div>
+
           <div className="embla__slide w-44">
             <figure>
               <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
@@ -58,11 +50,29 @@ const Carousel = () => {
               <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
             </figure>
           </div>
+
           <div className="embla__slide w-44">
             <figure>
-              <Image src={AciSunyaLogo} alt="aci sunya" width={170} />
+              <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
             </figure>
           </div>
+          <div className="embla__slide w-44">
+            <figure>
+              <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
+            </figure>
+          </div>
+
+          <div className="embla__slide w-44">
+            <figure>
+              <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
+            </figure>
+          </div>
+          <div className="embla__slide w-44">
+            <figure>
+              <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
+            </figure>
+          </div>
+
           <div className="embla__slide w-44">
             <figure>
               <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
