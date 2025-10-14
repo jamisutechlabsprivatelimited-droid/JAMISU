@@ -2,7 +2,6 @@
 
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import AciSunyaLogo from "@/assets/brand-logos/acisunya.svg"
 import FutureWaveLogo from "@/assets/brand-logos/future-wave.svg";
 import IgnitiveLogo from "@/assets/brand-logos/ignitive.svg";
 import AutoScroll from "embla-carousel-auto-scroll";
