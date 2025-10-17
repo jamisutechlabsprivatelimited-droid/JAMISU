@@ -34,6 +34,7 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center gap-10 uppercase">
           <NavItem label="Services" href="#services" />
           <NavItem label="Solutions" href="#solutions" />
+          <NavItem label="Products" href="#products" />
           <NavItem label="Say Hey" href="mailto:sales@jamisu.com" />
           <div>
             <Link href={"/contact-us"} className="text-white text-sm font-semibold px-4 py-2 border-b border-transparent hover:border-orange">
@@ -49,6 +50,7 @@ const Navbar = () => {
             <nav className="flex flex-col gap-1 pt-2">
               <MobileNavItem label="Services" href="#services" />
               <MobileNavItem label="Solutions" href="#solutions" />
+              <MobileNavItem label="Products" href="#products" />
               <MobileNavItem label="Say Hey" href="mailto:sales@jamisu.com" />
               <MobileNavItem label="Book a call" href="/contact-us" />
               <div className="mt-3">
