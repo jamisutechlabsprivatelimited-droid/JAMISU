@@ -17,7 +17,7 @@ const AboutUs = () => {
               team in Indore. </p>
 
             <p>The problem was that small businesses
-              couldn't afford Enterprise ERP solutions, so our idea was to
+              couldn&apos;t afford Enterprise ERP solutions, so our idea was to
               create an affordable, AI-powered tool that automated the
               business with ERPs, CRMs, e-commerce solutions, business-to-business applications, business-to-client, Managed Services
               and web design and development.
