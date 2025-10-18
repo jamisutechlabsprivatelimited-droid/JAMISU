@@ -10,6 +10,7 @@ import WhatMakesUsDifferent from "./_components/WhatMakesUsDifferent";
 import Carousel from "./_components/carousel";
 import AboutUs from "./_components/about-us";
 import Products from "./_components/products";
+import Initiatives from "./_components/initiatives";
 
 
 export const metadata: Metadata = {
@@ -26,6 +27,7 @@ export default function Home() {
       <TrustUs />
       <HowWeWork />
       <OurServices />
+      <Initiatives />
       <WhatMakesUsDifferent />
       <AboutUs />
 

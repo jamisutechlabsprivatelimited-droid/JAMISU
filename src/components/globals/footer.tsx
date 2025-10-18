@@ -1,6 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import ZohoIcon from "@/assets/services-icons/zoho.png";
+import CeligoIcon from "@/assets/services-icons/celigo.png";
+import MicrosoftIcon from "@/assets/services-icons/microsoft-dynamic.png";
+import SalesforceIcon from "@/assets/services-icons/salesforce.png";
+import oracleIcon from "@/assets/services-icons/oracle.png";
+
+
+
 const Footer = () => {
   return (
     <footer className="bg-green text-white py-10">
@@ -18,8 +26,24 @@ const Footer = () => {
         </div>
 
 
-        {/* Get In Touch */}
+        {/* services icons */}
         <div>
+          <h5 className="text-2xl font-semibold mb-4">Services</h5>
+
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-5">
+    
+          <Image src={ZohoIcon} alt="zoho" width={100} height={70} className="object-contain bg-white " />
+          <Image src={CeligoIcon} alt="celigo" width={110} height={70} className="object-contain" />
+          <Image src={MicrosoftIcon} alt="microsoft dynamics" width={130} height={70} className="object-contain bg-white p-2" />
+          <Image src={SalesforceIcon} alt="salesforce" width={90} height={70} className="object-contain" />
+          <Image src={oracleIcon} alt="oracle" width={120} height={70} className="object-contain bg-white p-2" />
+
+        </div>
+        </div>
+
+
+        {/* Get In Touch */}
+        <div className="shrink-0">
           <h5 className="text-2xl font-semibold mb-4">Get In Touch</h5>
 
           <div className="space-y-4 text-sm">
