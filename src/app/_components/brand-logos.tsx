@@ -40,7 +40,7 @@ const BrandLogos = () => {
   return (
     <section className="container flex flex-col items-center gap-10 py-24">
       <h2 className="text-center text-4xl font-semibold leading-8 font-primary text-blue">
-        Some of our recent <span className="text-orange">success stories</span>
+        Some of our recent <span className="text-yellow">success stories</span>
       </h2>
       <div className="flex flex-wrap gap-x-10 gap-y-10 mt-10 justify-center items-center">
         {

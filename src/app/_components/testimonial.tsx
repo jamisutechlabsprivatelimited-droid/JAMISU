@@ -5,7 +5,7 @@ const Testimonial = () => {
   return (
     <section className="container flex flex-col items-center gap-6 py-24 sm:gap-7">
     <div className="flex flex-col gap-3 font-primary">
-      <span className="font-bold uppercase text-orange/70 text-center">Testimonials</span>
+      <span className="font-bold uppercase text-yellow/70 text-center">Testimonials</span>
       <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-center">
         What our clients say
       </h2>
@@ -30,7 +30,7 @@ export default Testimonial;
 
 export function TestimonialCard() {
   return (
-    <article className={"shadow-lg bg-orange rounded-2xl text-white pb-7 font-secondary border border-gray-100 text-lg leading-7 md:text-xl md:leading-8"}>
+    <article className={"shadow-lg bg-yellow rounded-2xl text-white pb-7 font-secondary border border-gray-100 text-lg leading-7 md:text-xl md:leading-8"}>
       <div className="flex flex-col items-start gap-5 p-7 ">
         <p className="">
           “The other reason that we chose NetSuite + Crafted ERP was Doozy Solutions, the team that

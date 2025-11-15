@@ -3,12 +3,12 @@ import { NavItem } from "./nav-item";
 import { MobileNavItem } from "./mobile-nav-item";
 import { MobileNavbar } from "./mobile-navbar";
 import Image from "next/image";
-import NavLogo from "@/assets/brand-logos/nav-logo.svg";
+import NavLogo from "@/assets/brand-logos/nav-logo.jpeg";
 import DownloadBrochureBtn from "./download-brochure-btn";
 
 const Navbar = () => {
   return (
-    <header className="sticky top-0 z-50 bg-green shadow-lg">
+    <header className="sticky top-0 z-50 bg-white shadow-lg">
       <div className="container flex items-center justify-between gap-10 py-2">
 
         {/* Logo + Subtext with LanceSoft Logo to the right */}
@@ -18,8 +18,8 @@ const Navbar = () => {
           aria-label="Go to LanceSoft"
         >
           {/* Main Logo + Subtext */}
-          <div className="flex flex-col items-start justify-center w-28 h-auto relative">
-            <div className="relative w-full h-12">
+          <div className="flex flex-col items-start justify-center w-44 h-auto relative">
+            <div className="relative w-full h-26">
               <Image
                 src={NavLogo}
                 alt="Jamisu Tech logo"
@@ -37,7 +37,7 @@ const Navbar = () => {
           <NavItem label="Products" href="#products" />
           <NavItem label="Say Hey" href="mailto:sales@jamisu.com" />
           <div>
-            <Link href={"/contact-us"} className="text-white text-sm font-semibold px-4 py-2 border-b border-transparent hover:border-orange">
+            <Link href={"/contact-us"} className="text-blue text-sm font-semibold px-4 py-2 border-b border-transparent hover:border-yellow">
               Book a call
             </Link>
           </div>

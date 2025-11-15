@@ -13,7 +13,7 @@ const ValuesGrid = () => {
         "Practical Approach",
       ].map((item, index) => (
         <div key={index} className="flex items-center gap-2">
-          <span className="text-orange-500 text-xl">🔸</span>
+          <span className="text-yellow-500 text-xl">🔸</span>
           <span>{item}</span>
         </div>
       ))}

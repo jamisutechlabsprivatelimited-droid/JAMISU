@@ -6,7 +6,7 @@
 .serviceCard p::after {
   content: "";
   position: absolute;
-  background-color: oklch(70.5% .213 47.604);
+  background-color: #ffc533;
   width: 130px;
   height: 100px;
   top: -90px;

@@ -43,7 +43,7 @@ const TrustUs = () => {
             />
           </figure>
           <Tag text="Trust Us" variant="orange" />
-          <h3 className="text-2xl lg:text-3xl max-w-sm text-center">Get More of What You Want From Your Business</h3>
+          <h3 className="text-2xl lg:text-3xl max-w-sm text-center font-medium">Get More of What You Want From Your Business</h3>
           <p className="max-w-xl text-center text-[15px] leading-[120%] text-gray">Increase Your Business&apos;s Capabilities to Deliver on Your Goals solutions—Oracle NetSuite, Microsoft Dynamics 365, Salesforce, and Zoho—that use a results-oriented approach to assist you in achieving more than just operational efficiency. We assist you in gaining independence, stability, and growth. </p>
         </div>
 

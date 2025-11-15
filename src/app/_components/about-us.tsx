@@ -7,7 +7,7 @@ const AboutUs = () => {
     <section className="py-10">
       <div className="container">
         <h3 className="text-5xl text-center font-medium">Our
-          <span className="text-orange"> Journey
+          <span className="text-yellow"> Journey
           </span>
         </h3>
 

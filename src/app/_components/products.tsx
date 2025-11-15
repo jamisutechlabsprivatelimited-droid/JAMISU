@@ -22,7 +22,7 @@ const Products = () => {
   return (
     <section className="py-10" id="products">
       <div className="container">
-        <h3 className="text-4xl font-medium text-center">Our <span className="text-orange">Products</span></h3>
+        <h3 className="text-4xl font-medium text-center">Our <span className="text-yellow">Products</span></h3>
 
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 items-center mt-10">
           {

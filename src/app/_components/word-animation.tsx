@@ -29,12 +29,12 @@ const WordAnimation = () => {
   return (
     <span
       ref={containerRef}
-      className="inline-flex h-12 lg:h-14 pl-5 relative opacity-0"
+      className="inline-flex h-12 lg:h-14 pl-5 relative opacity-0 text-blue"
     >
       {words.map((word, i) => (
         <span
           key={i}
-          className="word absolute left-0 top-0 font-semibold w-max bg-orange px-3 py-1 rounded-sm h-full flex items-center"
+          className="word absolute left-0 top-0 font-semibold w-max bg-yellow px-3 py-1 rounded-sm h-full flex items-center"
         >
           <span className="block">
             {word}

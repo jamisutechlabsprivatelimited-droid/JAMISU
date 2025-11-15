@@ -9,7 +9,7 @@ const Initiatives = () => {
   return (
     <section className='bg-gray/10 py-10'>
       <div className="container">
-        <h3 className='text-4xl font-medium text-center'>Our <span className="text-orange">Initiatives</span></h3>
+        <h3 className='text-4xl font-medium text-center'>Our <span className="text-yellow">Initiatives</span></h3>
 
 
         <div className='mt-10  grid md:grid-cols-2 lg:grid-cols-3 gap-8'>

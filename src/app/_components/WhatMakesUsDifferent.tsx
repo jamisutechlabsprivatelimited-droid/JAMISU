@@ -5,7 +5,7 @@ const WhatMakesUsDifferent = () => {
     <section className="container pt-10 pb-20">
       <div className="grid lg:grid-cols-2 gap-x-4">
         <div>
-          <h3 className="text-4xl lg:text-5xl font-medium tracking-tight">What Makes us <span className="text-orange">Different</span></h3>
+          <h3 className="text-4xl lg:text-5xl font-medium tracking-tight">What Makes us <span className="text-yellow">Different</span></h3>
           {/* <figure className="relative h-[500px] w-[500px] mt-9">
             <Image src={SectionImage} alt="" layout="fill" className="object-cover" />
           </figure> */}

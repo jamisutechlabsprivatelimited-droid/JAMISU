@@ -11,17 +11,17 @@ import oracleIcon from "@/assets/services-icons/oracle.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-green text-white py-10">
+    <footer className="bg-blue text-white py-10">
       <div className="container flex max-md:flex-col justify-between gap-10">
 
         {/* Quick Links */}
         <div>
           <h5 className="text-2xl font-semibold mb-4">Quick Links</h5>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/" className="hover:text-orange">Home</Link></li>
-            <li><Link href="#services" className="hover:text-orange">Services</Link></li>
-            <li><Link href="#solutions" className="hover:text-orange">Solutions</Link></li>
-            <li><Link href="/contact-us" className="hover:text-orange">Contact Us</Link></li>
+            <li><Link href="/" className="hover:text-yellow">Home</Link></li>
+            <li><Link href="#services" className="hover:text-yellow">Services</Link></li>
+            <li><Link href="#solutions" className="hover:text-yellow">Solutions</Link></li>
+            <li><Link href="/contact-us" className="hover:text-yellow">Contact Us</Link></li>
           </ul>
         </div>
 
@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="space-y-4 text-sm">
             {/* Phone numbers */}
             <div className="flex items-start gap-2">
-              <span className="text-orange text-lg mt-1"></span>
+              <span className="text-yellow text-lg mt-1"></span>
               <div className="flex flex-col gap-y-3">
                 <a href="tel:+919975549318" className="hover:underline"> 📞 +919975549318 </a>
 
@@ -70,7 +70,7 @@ const Footer = () => {
         {/* Address */}
         <div className="grid lg:grid-cols-2 gap-x-6 gap-y-4">
           <div className="text-sm text-white/90 max-w-xs">
-            <h5 className="text-orange text-xl mb-2">📍 Indore</h5>
+            <h5 className="text-yellow text-xl mb-2">📍 Indore</h5>
             <p>
               Ignitive Software
               Labs, 203, plot No
@@ -85,7 +85,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="text-sm text-white/90 max-w-xs">
-            <h5 className="text-orange text-xl mb-2">📍 Noida</h5>
+            <h5 className="text-yellow text-xl mb-2">📍 Noida</h5>
             <p>
               Tower - D, The
               Golden Palm

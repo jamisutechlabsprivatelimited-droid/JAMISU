@@ -76,12 +76,12 @@ const ConsultingCards = () => {
 
 
   return (
-    <section id="solutions" className="tabsection py-14 text-green overflow-hidden">
+    <section id="solutions" className="tabsection py-14 text-blue overflow-hidden">
       <div className="container">
         <h2 className="text-3xl lg:text-4xl font-medium">
           Where Expertise Meets Execution-
           <br />
-          <span className="text-orange">Your ERP Consulting Arm</span>
+          <span className="text-yellow">Your ERP Consulting Arm</span>
         </h2>
 
         <div className="grid lg:grid-cols-2 ">
@@ -124,7 +124,7 @@ const ConsultingCards = () => {
           </div>
         </div>
         <div className="mt-5 flex max-lg:justify-center">
-          <Link href={"/contact-us"} className="text-white bg-orange px-4 py-2 rounded-md">
+          <Link href={"/contact-us"} className="text-blue bg-yellow font-medium px-4 py-2 rounded-md">
             Book a call
           </Link>
         </div>
@@ -151,7 +151,7 @@ const TabArticle = ({ card, isActive, getHeight, handleTabClick }: TabArticlePro
       <div onClick={handleTabClick} className={`flex justify-between items-center cursor-pointer ${isActive ? 'opacity-100' : 'opacity-30'}`}>
         <div className={`flex gap-x-6 items-center transition-opacity duration-400`}>
           <Image src={card.icon} alt={card.title} className={`transition-all object-contain  ${isActive ? "w-10 h-10 lg:h-14 lg:w-14" : 'w-7 h-7 lg:h-9 lg:w-9'}`} />
-          <h3 className={`transition-all duration-400 ${isActive ? "text-xl lg:text-2xl" : "text-base lg:text-lg"} font-medium `}>{card.title}</h3>
+          <h3 className={`transition-all duration-400 ${isActive ? "text-xl lg:text-2xl" : "text-base lg:text-lg"} font-medium  text-blue`}>{card.title}</h3>
 
         </div>
         <Image src={ChevronIcon} alt="" width={14} height={14}

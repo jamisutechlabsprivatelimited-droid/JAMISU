@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${golosText.variable} ${inter.variable} antialiased text-green font-secondary`}
+        className={`${golosText.variable} ${inter.variable} antialiased text-blue font-secondary`}
       >
         <Navbar />
           {children}

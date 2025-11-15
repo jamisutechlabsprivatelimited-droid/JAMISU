@@ -22,7 +22,7 @@ const Hero = () => {
           </p>
 
           <div className="mt-5">
-            <Link href={"/contact-us"} className="text-white bg-orange px-4 py-2 rounded-md">
+            <Link href={"/contact-us"} className="text-blue bg-yellow px-4 py-2 font-medium rounded-md">
               Book a call
             </Link>
           </div>

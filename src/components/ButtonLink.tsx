@@ -13,7 +13,7 @@ const ButtonLink = ({ href, variant, children } : PropsWithChildren<ButtonLinkPr
   const classNames : {
     [k in ButtonLinkProps["variant"]] : string
   } = {
-    blue : "bg-blue text-white hover:bg-orange transition",
+    blue : "bg-blue text-white hover:bg-yellow transition",
     orange : "",
     white : "bg-white hover:bg-transparent hover:border-white text-black hover:text-white"
   }

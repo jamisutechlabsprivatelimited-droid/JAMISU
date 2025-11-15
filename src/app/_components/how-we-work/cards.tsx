@@ -68,8 +68,8 @@ const Cards = () => {
         <div className="w-1 h-full bg-gray/20"></div>
         <div className="progress-line absolute top-0 h-full -translate-y-full">
           <div className="  h-full">
-            <div className="w-1 bg-orange h-full"></div>
-            <div className="w-7 h-7 bg-orange rounded-full -translate-x-3"></div>
+            <div className="w-1 bg-blue h-full"></div>
+            <div className="w-7 h-7 bg-blue rounded-full -translate-x-3"></div>
           </div>
         </div>
       </div>
