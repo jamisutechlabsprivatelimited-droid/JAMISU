@@ -32,11 +32,11 @@ const Footer = () => {
 
           <div className="flex flex-wrap items-center gap-x-3 gap-y-5">
     
-          <Image src={ZohoIcon} alt="zoho" width={100} height={70} className="object-contain bg-white " />
-          <Image src={CeligoIcon} alt="celigo" width={110} height={70} className="object-contain" />
-          <Image src={MicrosoftIcon} alt="microsoft dynamics" width={130} height={70} className="object-contain bg-white p-2" />
-          <Image src={SalesforceIcon} alt="salesforce" width={90} height={70} className="object-contain" />
-          <Image src={oracleIcon} alt="oracle" width={120} height={70} className="object-contain bg-white p-2" />
+          <Image src={ZohoIcon} alt="zoho" width={90} height={70} className="object-contain bg-white " />
+          <Image src={CeligoIcon} alt="celigo" width={90} height={70} className="object-contain bg-white" />
+          <Image src={MicrosoftIcon} alt="microsoft dynamics" width={90} height={70} className="object-contain bg-white" />
+          <Image src={SalesforceIcon} alt="salesforce" width={90} height={70} className="object-contain bg-white" />
+          <Image src={oracleIcon} alt="oracle" width={90} height={70} className="object-contain bg-white" />
 
         </div>
         </div>
