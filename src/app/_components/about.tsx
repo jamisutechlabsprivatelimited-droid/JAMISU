@@ -26,7 +26,7 @@ const About = () => {
         <div>
           <div className="space-y-6 text-sm text-gray-600">
             <p className="font-bold">
-              Jamisu Tech, a proud member of the LanceSoft Inc family, excels in  empowering  businesses
+              Jamisu Tech, a proud member , excels in  empowering  businesses
               with cutting-edge solutions. Our expertise lies in ERP implementation and consulting, enabling organizations
               to streamline operations through intelligent automation and bespoke ERP strategies.  Beyond ERP, we offer a
               comprehensive suite of IT services, including software development, cloud solutions, cybersecurity, IT

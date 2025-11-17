@@ -11,11 +11,11 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-white shadow-lg">
       <div className="container flex items-center justify-between gap-10 py-2">
 
-        {/* Logo + Subtext with LanceSoft Logo to the right */}
+        {/* Logo + Subtext with  Logo to the right */}
         <Link
           href="/"
           className="flex items-center gap-2 h-20"
-          aria-label="Go to LanceSoft"
+          aria-label="Go to Jamisu"
         >
           {/* Main Logo + Subtext */}
           <div className="flex flex-col items-start justify-center w-44 h-auto relative">

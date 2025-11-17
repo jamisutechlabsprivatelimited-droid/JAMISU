@@ -24,13 +24,13 @@ const cardsData = [
     title: 'Project Mangement',
     image: ProjectManagementImage,
 
-    description: 'We proactively analyse the requirement of the task to develop a deep understanding of the pain points. Proactively analyse the requirement of the task.'
+    description: 'Project Management ensures organized planning, efficient resource use, timely execution, and successful delivery of goals through strategy, coordination, communication, and control.'
   },
   {
     number: '03',
     title: 'Delivery Management',
     image: ProjectDeliveryImage,
-    description: 'We proactively analyse the requirement of the task to develop a deep understanding of the pain points. Proactively analyse the requirement of the task.'
+    description: 'Delivery Management focuses on planning, tracking, and ensuring timely, accurate project or service delivery while maintaining quality, efficiency, client satisfaction, and continuous improvement.'
   },
 
 ]

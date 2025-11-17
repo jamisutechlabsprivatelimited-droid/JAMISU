@@ -6,28 +6,36 @@ import ChatbotIcon from "@/assets/products/chatbot.svg";
 import RentalIcon from "@/assets/products/rental-management.svg";
 import Image from "next/image";
 
-
-
 const Products = () => {
 
   const data = [
-    { text: 'Rental Management', icon: RentalIcon },
-    { text: 'ERP Product', icon: ERPIcon },
-    { text: 'Timestamp', icon: TimestampIcon },
-    { text: 'Warehouse Management', icon: WarehouseIcon },
-    { text: 'Chatbot', icon: ChatbotIcon },
-    { text: 'Bank Integration', icon: BankIcon },
+    { text: 'Rental Management', icon: RentalIcon, link: "#" },
+    { text: 'ERP Product', icon: ERPIcon, link: "#" },
+    { text: 'Timestamp', icon: TimestampIcon, link: "#" },
+    { text: 'Warehouse Management', icon: WarehouseIcon, link: "#" },
+    { text: 'Chatbot', icon: ChatbotIcon, link: "https://your-chatbot-link.com" }, // <-- Add your link
+    { text: 'Bank Integration', icon: BankIcon, link: "#" },
   ];
 
   return (
     <section className="py-10" id="products">
       <div className="container">
-        <h3 className="text-4xl font-medium text-center">Our <span className="text-yellow">Products</span></h3>
+        <h3 className="text-4xl font-medium text-center">
+          Our <span className="text-yellow">Products</span>
+        </h3>
 
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 items-center mt-10">
           {
             data.map((item, index) => (
-              <div key={index} className="px-4 py-8 flex flex-col gap-3 items-center justify-center w-44 md:w-56 rounded-md h-full mx-auto bg-green/10">
+              <a 
+                key={index}
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-8 flex flex-col gap-3 items-center justify-center 
+                           w-44 md:w-56 rounded-md h-full mx-auto bg-green/10 
+                           hover:scale-105 transition-all duration-200"
+              >
                 <h4 className="text-lg font-semibold text-center">{item.text}</h4>
                 <figure className="relative w-16 md:w-20 h-16 md:h-20">
                   <Image
@@ -36,15 +44,13 @@ const Products = () => {
                     fill
                   />
                 </figure>
-              </div>
+              </a>
             ))
           }
         </div>
       </div>
-
-
     </section>
   )
 }
 
-export default Products
+export default Products;

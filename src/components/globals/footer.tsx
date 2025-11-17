@@ -51,13 +51,13 @@ const Footer = () => {
             <div className="flex items-start gap-2">
               <span className="text-yellow text-lg mt-1"></span>
               <div className="flex flex-col gap-y-3">
-                <a href="tel:+919975549318" className="hover:underline"> 📞 +919975549318 </a>
-
+                <a href="tel:+919975549318" className="hover:underline"> 📞 +91 9975549318 </a>
+                 <a href="tel:+919975549318" className="hover:underline">📞 +91 9021023513 </a>
                 <Link href="mailto:sales@jamisu.com" className="text-sm text-white hover:underline">
                   📧 sales@jamisu.com
                 </Link>
-                <Link href="mailto:info@ignitivelabs.in" className="text-sm text-white hover:underline">
-                  📧 info@ignitivelabs.in
+                <Link href="mailto:pmo@jamisu.com " className="text-sm text-white hover:underline">
+                  📧 pmo@jamisu.com
                 </Link>
               </div>
             </div>
@@ -72,8 +72,7 @@ const Footer = () => {
           <div className="text-sm text-white/90 max-w-xs">
             <h5 className="text-yellow text-xl mb-2">📍 Indore</h5>
             <p>
-              Ignitive Software
-              Labs, 203, plot No
+              203, plot No
               53, 
               <br />
               Above Destiny
@@ -84,7 +83,7 @@ const Footer = () => {
               INDIA
             </p>
           </div>
-          <div className="text-sm text-white/90 max-w-xs">
+          {/* <div className="text-sm text-white/90 max-w-xs">
             <h5 className="text-yellow text-xl mb-2">📍 Noida</h5>
             <p>
               Tower - D, The
@@ -96,7 +95,7 @@ const Footer = () => {
               <br />
               INDIA
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* Social Media Icons */}
@@ -107,10 +106,10 @@ const Footer = () => {
           <Link href="mailto:sales@flemingoservices.com">
             <Image src="/Gmail.png" alt="Email" width={40} height={40} className="rounded-full hover:opacity-80" />
           </Link>
-          {/* <Link href="https://www.linkedin.com/in/cloudsuite-flemingo-services-a375aa361/">
+          { <Link href="https://www.linkedin.com/company/jamisu-tech-labs-pvt-ltd/posts/?feedView=all">
             <Image src="/Linkedln.png" alt="LinkedIn" width={40} height={40} className="rounded-full hover:opacity-80" />
-          </Link> */}
-          <Link href="https://wa.me/+919975549318">
+          </Link> }
+          <Link href="https://wa.me/+91 9021023513">
             <Image src="/Watsapp (1).png" alt="WhatsApp" width={40} height={40} className="rounded-full hover:opacity-80" />
           </Link>
         </div>
@@ -118,7 +117,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <p className="text-center text-sm text-white mt-10 container">
-        &copy; 2025 All rights reserved. Jamisu Tech Pvt. Ltd.
+        &copy; 2025 All rights reserved. Jamisu Tech Pvt. Ltd. labs 
       </p>
     </footer>
   );
