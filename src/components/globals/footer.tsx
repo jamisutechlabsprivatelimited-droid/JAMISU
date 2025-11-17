@@ -3,9 +3,9 @@ import Link from "next/link";
 
 import ZohoIcon from "@/assets/services-icons/zoho.png";
 import CeligoIcon from "@/assets/services-icons/celigo.png";
-import MicrosoftIcon from "@/assets/services-icons/microsoft-dynamic.png";
+import MicrosoftIcon from "@/assets/services-icons/microsoft-dynamic.jpg";
 import SalesforceIcon from "@/assets/services-icons/salesforce.png";
-import oracleIcon from "@/assets/services-icons/oracle.png";
+import oracleIcon from "@/assets/services-icons/oracle.jpg";
 
 
 
