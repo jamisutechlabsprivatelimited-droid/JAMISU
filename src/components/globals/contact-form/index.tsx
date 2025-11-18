@@ -101,12 +101,12 @@ const ContactForm = () => {
 
           {/* Project Button */}
           <a
-            href="https://your-project-link.com"  /* change link here */
+            href="https://app.jamisu.com/"  /* change link here */
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green px-4 py-1.5 text-white rounded-sm hover:opacity-80"
           >
-            Project
+            Jamisu App 
           </a>
         </div>
       </form>

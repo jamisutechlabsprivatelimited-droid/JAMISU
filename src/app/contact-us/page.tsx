@@ -64,7 +64,7 @@ const ContactUsPage = () => {
               width={40} height={40}
             />
             <p className="text-15">
-              Ignitive Software Labs, 203, plot No 53,
+              JAMISU Tech Pvt.Ltd.Labs., 203, plot No 53,
               <br />
               Above Destiny Cafe, Near Medanta Hospital,
               <br />
@@ -73,7 +73,7 @@ const ContactUsPage = () => {
               INDIA
             </p>
           </div>
-          <div className="space-y-3 bg-white-secondary/20 p-4 rounded-md">
+          {/* <div className="space-y-3 bg-white-secondary/20 p-4 rounded-md">
             <Image
               src={PinIcon}
               alt=""
@@ -86,7 +86,7 @@ const ContactUsPage = () => {
               <br />
               INDIA
             </p>
-          </div>
+          </div> */}
 
           
         </div>
