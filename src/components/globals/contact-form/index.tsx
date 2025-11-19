@@ -99,15 +99,17 @@ const ContactForm = () => {
             Submit
           </button>
 
-          {/* Project Button */}
-          <a
-            href="https://app.jamisu.com/"  /* change link here */
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-green px-4 py-1.5 text-white rounded-sm hover:opacity-80"
+       {/* JAMISU Button */}
+          <button
+            type="submit"
+            disabled={loading}
+            aria-disabled={loading}
+            className={`bg-green px-4 py-1.5 text-white rounded-sm cursor-pointer hover:opacity-80 ${
+              loading && "opacity-50 cursor-wait"
+            }`}
           >
-            Jamisu App 
-          </a>
+            JAMISU App
+          </button>
         </div>
       </form>
     </div>
