@@ -32,6 +32,7 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-10 uppercase">
+           <NavItem label="JAMISU App" href="#" />
           <NavItem label="Services" href="#services" />
           <NavItem label="Solutions" href="#solutions" />
           <NavItem label="Products" href="#products" />
@@ -48,6 +49,7 @@ const Navbar = () => {
         <MobileNavbar>
           <div className="rounded-b-lg bg-white py-4 container text-foreground shadow-xl">
             <nav className="flex flex-col gap-1 pt-2">
+               <MobileNavItem label="JAMISU App" href="#" />
               <MobileNavItem label="Services" href="#services" />
               <MobileNavItem label="Solutions" href="#solutions" />
               <MobileNavItem label="Products" href="#products" />
