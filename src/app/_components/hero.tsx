@@ -26,14 +26,6 @@ const Hero = () => {
               Book a call
             </Link>
           </div>
-
-          <div className="mt-5">
-            <a href="https://app.jamisu.com/"  /* change link here */
-            target="_blank"
-            rel="noopener noreferrer" className="text-blue bg-yellow px-4 py-2 font-medium rounded-md">
-              JAMISU App
-            </Link>
-          </div>      
         </div>
       </div>
     </section>
