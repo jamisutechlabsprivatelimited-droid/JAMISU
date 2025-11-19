@@ -1,5 +1,5 @@
-import Image from "next/image";
-import JourneyImage from "@/assets/journey-image.png";
+// import Image from "next/image";
+// import JourneyImage from "@/assets/journey-image.png";
 
 
 const AboutUs = () => {
