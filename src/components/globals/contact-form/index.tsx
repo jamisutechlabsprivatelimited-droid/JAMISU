@@ -98,18 +98,6 @@ const ContactForm = () => {
           >
             Submit
           </button>
-
-       {/* JAMISU Button */}
-          <button
-            type="submit"
-            disabled={loading}
-            aria-disabled={loading}
-            className={`bg-green px-4 py-1.5 text-white rounded-sm cursor-pointer hover:opacity-80 ${
-              loading && "opacity-50 cursor-wait"
-            }`}
-          >
-            JAMISU App
-          </button>
         </div>
       </form>
     </div>
