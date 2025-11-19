@@ -27,7 +27,7 @@ const ContactUsPage = () => {
               <span className="inline-block">
                 📞
               </span>
-              <Link href="tel:+919975549318" className="hover:underline">  +919975549318 </Link>
+              <Link href="tel:+919975549318" className="hover:underline"> +91 9021023513 </Link>
 
             </p>
 
@@ -43,12 +43,12 @@ const ContactUsPage = () => {
               <span className="inline-block text-lg">
                 📧
               </span>
-              <Link href="mailto:info@ignitivelabs.in" className="hover:underline">
-                info@ignitivelabs.in
+              <Link href="mailto:pmo@jamisu.com" className="hover:underline">
+                pmo@jamisu.com
               </Link>
             </p>
 
-            <Link href={"https://wa.me/+919975549318"}>
+            <Link href={"https://wa.me/+919021023513"}>
               <Image
                 src={WhatsappIcon}
                 alt="chat on whatsapp"
