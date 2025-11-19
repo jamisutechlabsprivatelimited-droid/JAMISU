@@ -9,11 +9,12 @@ import Image from "next/image";
 const Products = () => {
 
   const data = [
-    { text: 'Jamisu Rental Management', icon: RentalIcon, link: "#" },
-    { text: 'Jamisu ERP ', icon: ERPIcon, link: "https://app.jamisu.com/" },
-    { text: 'Jamisu Timestamp', icon: TimestampIcon, link: "http://hourflux.com/signin/" },
-    { text: 'Jamisu Warehouse Management', icon: WarehouseIcon, link: "#" },
-    { text: 'Chatbot/AI', icon: ChatbotIcon, link: "https://your-chatbot-link.com" }, // <-- Add your link
+
+    { text: 'JAMISU ERP System  ', icon: ERPIcon, link: "https://app.jamisu.com/" },
+    { text: 'JAMISU Timestamp', icon: TimestampIcon, link: "http://hourflux.com/signin/" },
+    { text: 'JAMISU Warehouse Management', icon: WarehouseIcon, link: "#" },
+    { text: 'JAMISU Rental Management', icon: RentalIcon, link: "#" },
+    { text: 'Chatbot/AI', icon: ChatbotIcon, link: "#" }, 
     { text: 'Integration', icon: BankIcon, link: "#" },
   ];
 

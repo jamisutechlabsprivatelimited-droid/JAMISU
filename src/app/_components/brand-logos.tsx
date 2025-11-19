@@ -1,4 +1,4 @@
-/**
+
 import Image, { StaticImageData } from "next/image";
 import AthleticLogo from "@/assets/brand-logos/athletic.webp"
 import BurleighLogo from "@/assets/brand-logos/burleigh.webp"
@@ -65,4 +65,4 @@ export function SocialProofLogo({ image }: SocialProofLogoProps) {
     </div>
   );
 }
-  */
+  
