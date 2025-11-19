@@ -33,9 +33,9 @@ const AboutUs = () => {
             </div> */}
           </div>
 
-          <figure className="relative w-full h-96">
+          {/* <figure className="relative w-full h-96">
             <Image src={JourneyImage} alt="jamisu journey" fill className="object-contain" />
-          </figure>
+          </figure> */}
         </div>
       </div>
     </section>
