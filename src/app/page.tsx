@@ -8,7 +8,7 @@ import TrustUs from "./_components/trust-us";
 import HowWeWork from "./_components/how-we-work";
 import WhatMakesUsDifferent from "./_components/WhatMakesUsDifferent";
 import Carousel from "./_components/carousel";
-import AboutUs from "./_components/about-us";
+// import AboutUs from "./_components/about-us";
 import Products from "./_components/products";
 import Initiatives from "./_components/initiatives";
 
