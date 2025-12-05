@@ -4,6 +4,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 import FutureWaveLogo from "@/assets/brand-logos/future-wave.svg";
 import IgnitiveLogo from "@/assets/brand-logos/ignitive.svg";
+import AkrtitLogo from "@/assets/brand-logos/Akriti.svg";
 import AutoScroll from "embla-carousel-auto-scroll";
 import LeftGradient from "@/assets/left-gradient.png";
 import RightGradient from "@/assets/right-gradient.png";
@@ -41,7 +42,7 @@ const Carousel = () => {
 
           <div className="embla__slide w-44">
             <figure>
-              <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
+              <Image src={AkrtitLogo} alt="Akriti Sky Morphs " width={130} />
             </figure>
           </div>
           <div className="embla__slide w-44">
@@ -55,6 +56,13 @@ const Carousel = () => {
               <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
             </figure>
           </div>
+
+           <div className="embla__slide w-44">
+            <figure>
+              <Image src={AkrtitLogo} alt="Akriti Sky Morphs " width={130} />
+            </figure>
+          </div>
+
           <div className="embla__slide w-44">
             <figure>
               <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
@@ -66,6 +74,13 @@ const Carousel = () => {
               <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
             </figure>
           </div>
+
+           <div className="embla__slide w-44">
+            <figure>
+              <Image src={AkrtitLogo} alt="Akriti Sky Morphs " width={130} />
+            </figure>
+          </div>
+
           <div className="embla__slide w-44">
             <figure>
               <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
@@ -77,6 +92,13 @@ const Carousel = () => {
               <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
             </figure>
           </div>
+
+           <div className="embla__slide w-44">
+            <figure>
+              <Image src={AkrtitLogo} alt="Akriti Sky Morphs " width={130} />
+            </figure>
+          </div>
+          
           <div className="embla__slide w-44">
             <figure>
               <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
