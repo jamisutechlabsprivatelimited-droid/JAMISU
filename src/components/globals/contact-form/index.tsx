@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import Link from "next/link";
 
 const ContactForm = () => {
   const [showSuccess, setShowSuccess] = useState(false);
@@ -51,12 +52,12 @@ const ContactForm = () => {
         )}
 
         <div className="space-y-2">
-          <label htmlFor="name">Name</label>
+          <label>Name</label>
           <input type="text" name="name" placeholder="Full Name" required />
         </div>
 
         <div className="space-y-2">
-          <label htmlFor="phoneNumber">Contact Number</label>
+          <label>Contact Number</label>
           <input
             type="text"
             name="phoneNumber"
@@ -66,17 +67,12 @@ const ContactForm = () => {
         </div>
 
         <div className="space-y-2">
-          <label htmlFor="email">Email</label>
-          <input
-            type="text"
-            name="email"
-            placeholder="john@gmail.com"
-            required
-          />
+          <label>Email</label>
+          <input type="email" name="email" placeholder="john@gmail.com" required />
         </div>
 
         <div className="space-y-2">
-          <label htmlFor="message">Requirement</label>
+          <label>Requirement</label>
           <textarea
             name="message"
             placeholder="Your Requirement / message"
@@ -92,12 +88,22 @@ const ContactForm = () => {
             type="submit"
             disabled={loading}
             aria-disabled={loading}
-            className={`bg-green px-4 py-1.5 text-white rounded-sm cursor-pointer hover:opacity-80 ${
+            className={`bg-green px-4 py-1.5 text-white rounded-sm cursor-pointer hover:opacity-80 transition ${
               loading && "opacity-50 cursor-wait"
             }`}
           >
             Submit
           </button>
+
+          {/* JAMISU App Button */}
+          <Link
+            href="https://app.jamisu.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-green px-4 py-1.5 text-white rounded-sm cursor-pointer hover:opacity-80 transition"
+          >
+            JAMISU App
+          </Link>
         </div>
       </form>
     </div>
