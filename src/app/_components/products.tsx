@@ -1,4 +1,3 @@
-import BankIcon from "@/assets/products/bank.svg";
 import ERPIcon from "@/assets/products/erp.svg";
 import TimestampIcon from "@/assets/products/timestamp.svg";
 import WarehouseIcon from "@/assets/products/warehouse.svg";
@@ -7,51 +6,56 @@ import RentalIcon from "@/assets/products/rental-management.svg";
 import Image from "next/image";
 
 const Products = () => {
-
   const data = [
-
-    { text: 'JAMISU ERP System  ', icon: ERPIcon, link: "https://app.jamisu.com/" },
-    { text: 'JAMISU Timestamp', icon: TimestampIcon, link: "http://hourflux.com/signin/" },
-    { text: 'JAMISU Warehouse Management', icon: WarehouseIcon, link: "#" },
-    { text: 'JAMISU Rental Management', icon: RentalIcon, link: "#" },
-    { text: 'Chatbot/AI', icon: ChatbotIcon, link: "#" }, 
-    { text: 'Integration', icon: BankIcon, link: "#" },
+    { text: "JAMISU ERP One", icon: ERPIcon, link: "https://jamisuerp.jamisu.com/" },
+    { text: "JAMISU Hour Flux", icon: TimestampIcon, link: "https://apphourflux.jamisu.com/" },
+    { text: "JAMISU Vendor WMS", icon: WarehouseIcon, link: "https://app.jamisu.com/" },
+    { text: "JAMISU Warehouse Management", icon: RentalIcon, link: "#" },
+    { text: "Chatbot / AI", icon: ChatbotIcon, link: "https://aiflo.app/" },
   ];
 
   return (
-    <section className="py-10" id="products">
+    <section className="py-14" id="products">
       <div className="container">
         <h3 className="text-4xl font-medium text-center">
           Our <span className="text-yellow">Products</span>
         </h3>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 items-center mt-10">
-          {
-            data.map((item, index) => (
-              <a 
-                key={index}
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-4 py-8 flex flex-col gap-3 items-center justify-center 
-                           w-44 md:w-56 rounded-md h-full mx-auto bg-green/10 
-                           hover:scale-105 transition-all duration-200"
-              >
-                <h4 className="text-lg font-semibold text-center">{item.text}</h4>
-                <figure className="relative w-16 md:w-20 h-16 md:h-20">
-                  <Image
-                    src={item.icon}
-                    alt={item.text}
-                    fill
-                  />
-                </figure>
-              </a>
-            ))
-          }
+        {/* Card Holder */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-12">
+          {data.map((item, index) => (
+            <a
+              key={index}
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative bg-white/5 backdrop-blur-md
+                         rounded-xl px-6 py-8 flex flex-col items-center justify-between
+                         border border-[#ffc533]/60
+                         transition-all duration-300
+                         hover:-translate-y-1 hover:border-[#ffc533]
+                         hover:shadow-[0_0_25px_rgba(255,197,51,0.55)]"
+            >
+              {/* Icon */}
+              <figure className="relative w-16 h-16 mb-4">
+                <Image src={item.icon} alt={item.text} fill />
+              </figure>
+
+              {/* Title */}
+              <h4 className="text-base font-semibold text-center leading-snug">
+                {item.text}
+              </h4>
+
+              {/* CTA */}
+              <span className="mt-4 text-sm text-yellow font-medium opacity-80 group-hover:opacity-100">
+                Explore →
+              </span>
+            </a>
+          ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Products;

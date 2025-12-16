@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Golos_Text, Inter } from "next/font/google";
-import "./globals.css";
+import "./globals.css"
 import Footer from "@/components/globals/footer";
 import Navbar from "@/components/globals/header-nav";
 
